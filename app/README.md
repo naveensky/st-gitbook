@@ -1,4 +1,4 @@
-# APP
+# API Docs
 
 {% api-method method="get" host="https://api.cakes.com" path="/v2/apps" %}
 {% api-method-summary %}
