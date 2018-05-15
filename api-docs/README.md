@@ -1,6 +1,6 @@
 # API Docs
 
-{% api-method method="get" host="https://api.cakes.com" path="/v2/apps" %}
+{% api-method method="post" host="https://api.cakes.com" path="/v2/apps" %}
 {% api-method-summary %}
 Get Apps
 {% endapi-method-summary %}
@@ -51,5 +51,35 @@ Number of items to fetch
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% api-method method="get" host="" path="/v2/apps" %}
+{% api-method-summary %}
+Get Apps
+{% endapi-method-summary %}
 
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="Authentication" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
 

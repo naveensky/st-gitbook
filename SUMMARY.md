@@ -1,7 +1,8 @@
 # Table of contents
 
+* Introduction
 * Initial page
-* [API Docs](app/README.md)
+* [API Docs](api-docs/README.md)
   * Authentication
   * Apps
   * Collections
